@@ -56,6 +56,14 @@ From a SOC perspective, this activity indicates a potential brute-force attack w
 
 Such behavior would trigger alerts and require further investigation.
 
+
+---
+## 💻 Core Detection Logic
+
+```python
+if count >= 3:
+    print(f"🔴 HIGH ALERT: Brute force attack from {ip} ({count} failed attempts)")
+
 ---
 
 ##  Future Improvements
