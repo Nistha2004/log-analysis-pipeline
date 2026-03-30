@@ -40,6 +40,10 @@ log-analysis-pipeline/
 🟢 Successful login from 192.168.1.20 
 
 
+## 📸 Output Screenshot
+
+![Output](output.png)
+
 ---
 
 ## 🛠️ Tools & Technologies
@@ -58,23 +62,21 @@ Such behavior would trigger alerts and require further investigation.
 
 
 ---
+## Future Improvements
+Add time-based attack detection
+Export results to a report file
+Integrate real-time log monitoring
+Visualize data using graphs
+
+## ✅ Conclusion
+
+This project demonstrates how log analysis can be used to detect suspicious activity and identify potential threats, reflecting real-world SOC analyst responsibilities.
+---
 ## 💻 Core Detection Logic
 
 ```python
 if count >= 3:
     print(f"🔴 HIGH ALERT: Brute force attack from {ip} ({count} failed attempts)")
 
----
 
-##  Future Improvements
 
-- Add time-based attack detection  
-- Export results to a report file  
-- Integrate with real-time log monitoring  
-- Visualize data using graphs  
-
----
-
-## ✅ Conclusion
-
-This project demonstrates how log analysis can detect suspicious activity and identify potential security threats, reflecting real-world SOC responsibilities.
