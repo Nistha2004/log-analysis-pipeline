@@ -32,7 +32,10 @@ log-analysis-pipeline/
 - Successful login attempts are also tracked for visibility  
 
 ---
+## 📄 Report Generation
 
+The tool generates a `report.txt` file containing all detected alerts for further analysis and documentation.
+---
 ##  Sample Output
 🚨 Suspicious Activity Report:
 
@@ -42,7 +45,7 @@ log-analysis-pipeline/
 
 ## 📸 Output Screenshot
 
-![Output](output.png)
+![Output](output1.png)
 
 ---
 
