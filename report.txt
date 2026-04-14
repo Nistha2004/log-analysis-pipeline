@@ -2,3 +2,14 @@
 
 🔴 HIGH ALERT: Rapid brute-force attack from 192.168.1.10
 🟢 Successful login from 192.168.1.20
+📊 Summary
+- total_events: 5
+- failed_events: 4
+- successful_events: 1
+- ips_with_failures: 2
+- ips_with_successes: 1
+
+🔎 Alerts
+- 🔴 HIGH ALERT: Rapid brute-force from 192.168.1.10 (3 failures in 8s)
+- 🟢 LOW ALERT: Single failed attempt from 10.0.0.5
+- 🟢 Successful login from 192.168.1.20 (1 successful logins)
